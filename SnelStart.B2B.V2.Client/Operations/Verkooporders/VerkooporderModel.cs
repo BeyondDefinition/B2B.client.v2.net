@@ -111,5 +111,6 @@ namespace SnelStart.B2B.V2.Client.Operations
 
         public VerkooporderSjabloonIdentifierModel VerkooporderSjabloon { get; set; }
 
+        public VerkooporderExtraVeldModel[] ExtraHoofdVelden { get; set; } = new VerkooporderExtraVeldModel[0];
     }
 }
